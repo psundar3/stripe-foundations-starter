@@ -6,10 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stripe Foundations Starter</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+
+    <div class="carousel-wrapper"> 
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/002/050/portrait_normal/Carousel-1.jpg?1528600159" width="200">
+          </div> 
+          <div class="carousel-item">
+            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/372/portrait_normal/milky_jelly_full_hover.jpg?1551586571" width="200">
+          </div> 
+          <div class="carousel-item">
+              <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/403/portrait_normal/solution.gif?1551591428" width="200">
+          </div> 
+          <div class="carousel-item">
+              <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/452/portrait_normal/zitstick.jpg?1551594046 " width="200">
+          </div> 
+      </div>  
+    </div>
+
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/306/portrait_normal/body_hero_cream.gif?1551580573" width="200", class="card-img-top">
+          <h5 class="card-title">Fancy Product Name</h5>
+          <p class="card-text">I am the fanciest product in all the lands</p>
+          <button type="button" class="btn btn-primary btn-block">Buy Product</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-center"> 
+      <p>Made with love for Stripe Foundations</p>
+    </footer>  
 
 </body>
 
 </html>
+
+
+
